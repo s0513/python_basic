@@ -1,0 +1,21 @@
+1.coding時遇到的錯誤類型:通常可以分成3大類
+語法錯誤(syntax error):程式碼不符合語法
+執行時錯誤(runtime error):可能是使用者輸入錯誤導致
+    ex.使用未定義的變數、字串與整數相加
+       嘗試訪問不存在的元素
+語意錯誤(semantic error):邏輯上的錯誤，執行並沒有問題
+
+
+2.try-catch
+try 
+except <錯誤類型>  出了錯誤作相對應的處理  #會先預想可能會發生什麼錯誤
+    *可以import sys，獲取異常訊息
+     print("Unexpected error:", sys.exc_info()[0])
+else 都沒錯誤，就會執行此區塊
+finally 不論如何都會執行此區塊
+
+ValueError 輸入的不是數字
+ZeroDivisionError 不能除以0
+NameError 變數未宣告的錯誤
+
+3.import time
