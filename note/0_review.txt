@@ -18,4 +18,6 @@ ValueError 輸入的不是數字
 ZeroDivisionError 不能除以0
 NameError 變數未宣告的錯誤
 
+
 3.import time
+time.time()
